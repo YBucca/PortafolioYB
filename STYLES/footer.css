@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: palevioletred; 
+}
+.icon2{
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: white;
+    color: palevioletred;
+    padding: 10px;
+}
+
+.icon2:hover {
+    background-color: palevioletred;
+    border: 1px solid white;
+    color: white;
+}

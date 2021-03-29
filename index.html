@@ -8,6 +8,11 @@
     <!--link iconos-->
     <!-- Styles -->
 <link rel="stylesheet" href="./STYLES/styles.css">
+<link rel="stylesheet" href="./STYLES/conocimiento.css">
+<link rel="stylesheet" href="./STYLES/form.css">
+
+<link rel="stylesheet" href="./STYLES/footer.css">
+<script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
 
 </head>
@@ -30,59 +35,125 @@
         <a name="saludo"></a>
         <section class="presentation">
             <aside>
-            <h3>¡Hola! Soy</h3>
-            <h1>Yanina Bucca</h1>
-            <p>Estudiante de RRII, Personal trainer y futura programadora</p>
-            
-            <div class="boton">LO QUE HAGO</div>
-
-            <img src="./images/undraw_Imagination_re_i0xi.svg" alt="Believe"
-            width="450px" height="450px">
+                <h3>¡Hola! Soy</h3>
+                <h1>Yanina Bucca</h1>
+                <p>Estudiante de RRII, personal trainer y futura desarroladora frontend.</p>
+                <button>LO QUE HAGO</button>
             </aside>
+                <img src="./images/undraw_Imagination_re_i0xi.svg" alt="Believe"
+                width="450px" height="450px">
+            
         </section>
 
         <section class="knowledge">
             <a name="mis-conocimientos"></a>
             <h2>Mis Conocimientos </h2>
-        
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla?</p>
+        <div class="flex-card">
             <div class="card">
-                <i class="fab fa-html5"></i>
+                <i class="fab fa-html5 icon1"></i>
                 <h4>HTML 5</h4>
             </div>
             <div class="card">
-                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-css3-alt icon1"></i>
                 <h4>CSS 3</h4>
             </div>
             <div class="card">
-                <i class="fab fa-sass"></i>
+                <i class="fab fa-sass icon1"></i>
                 <h4>Sass</h4>
             </div>
             <div class="card">
-                <i class="fab fa-js-square"></i>
+                <i class="fab fa-js-square icon1"></i>
                 <h4>JavaScript</h4>
             </div>
             <div class="card">
-                <i class="fab fa-react"></i>
+                <i class="fab fa-react icon1"></i>
                 <h4>React</h4>
             </div>
             <div class="card">
-                <i class="fas fa-code-branch"></i>
+                <i class="fas fa-code-branch icon1"></i>
                 <h4>GIT</h4>
             </div>
+        </div>
         </section>
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex aliquid, hic, sapiente pariatur sunt animi maiores cum nisi minus asperiores nobis odit harum laudantium soluta sequi perspiciatis eligendi cumque?</p>
-            <h2>Someone</h2>
-        </section>
+        <!--SOMEONE-->
 
         <section>
-            <h1>Mis proyectos</h1>
+            <div class="someone">
+                <i class="fas fa-quote-right icon3"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex aliquid, hic, sapiente pariatur sunt animi maiores cum nisi minus asperiores nobis odit harum laudantium soluta sequi perspiciatis eligendi cumque?</p>
+                <h2>Someone</h2>
+            </div>
+        </section>
+        <!--MIS PROYECTOS-->
+        <a name="proyectos"></a>
+        <section class="projects">
+                <h1>Mis proyectos</h1>
         </section>
 
-        <section><div>
+
+        <!--CONTACTO-->
+        <section class="contact">
             <a name="contacto"></a>
-        <h2>Contacto</h2>
-        </div></section>
+            <div class="container-principal">
+                <div class="container1 m10">
+                    <h1 class="m10">Contactame</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quae nam dicta? Quisquam laudantium modi commodi quaerat ratione non voluptates doloremque. Placeat eos assumenda praesentium! Repellat veniam blanditiis et rem.</p>
+                    <div class="m10">
+                        <ul class="flex-column">
+                            <li>
+                                <i class="fab fa-twitter icon"></i>
+                                <a href="https://twitter.com/YBucca" target="_blank"> 
+                                <span>@YBucca</span></a>
+                            </li>
+                            <li>
+                                <i class="fab fa-github-alt icon"></i>
+                                <a href="https://github.com/YBucca" target="_blank"> 
+                                <span>YBucca</span> </a>
+                            </li>
+                            <li>
+                                <i class="fab fa-linkedin-in icon" target="_blank"></i>
+                                <a href="https://www.linkedin.com/in/yanina-bucca-465127149/"> 
+                                <span>yaninabucca</span> </a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope icon"></i>
+                                <a href=""><span>yani.bucca@gmail.com</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="container2 m10">
+                        <h1 class="m10">Escribime</h1>
+                    <form action="">
+                    <div class="subcontainer2">   
+                        <div class="m10">
+                                <label for="idNombre">Nombre*</label>
+                                <input type="text" id="idNombre" maxlength="10" size="10" placeholder="p. ej: Ada">
+                        </div>
+                        <div class="m10">
+                                <label for="idApellido">Apellido*</label>
+                                <input type="text" id="idApellido"  placeholder="p. ej: Lovelace">
+                        </div>
+                    </div>    
+                        <div class="m10">
+                            <label for="idEmail">Email*</label>
+                            <input class="linea" type="email" maxlength="50" size="30" placeholder="p.ej.: ada.lovelace@gmail.com">
+                        </div>
+                        <div class="flex-column m10">
+                        <label for="idMensaje">Mensaje*</label>
+                        <textarea name="Mensaje" id="idMensaje" cols="25" rows="7" placeholder=" Escriba un mensaje aqui"></textarea>
+                        </div>
+                    </form>
+                        <button class="m10">Enviar</button>
+                    </div>
+                </div>
+
+
+        
+    </section>
+
     </main>
 
 
@@ -90,8 +161,34 @@
     
     <!--FOOTER-->
     <footer>
-        
-    </footer>
+        <div class="end">
+        <ul>
+            <li><a href="#saludo">HOLA</a></li>
+            <li><a href="#mis-conocimientos">CONOCIMIENTOS</a></li>
+            <li><a href="#proyectos">PROYECTOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+        <ul>
+            <li>
+                <a href="https://twitter.com/YBucca" target="_blank">
+                    <i class="fab fa-twitter icon2"></i></a> 
+            </li>
+            <li>
+                <a href="https://github.com/YBucca" target="_blank">
+                    <i class="fab fa-github-alt icon2"></i> </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/yanina-bucca-465127149/" target="_blank">
+                    <i class="fab fa-linkedin-in icon2"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="fas fa-envelope icon2"></i></a>
+            </li>
+        </ul>
+
+            <p>Hecho con <i class="far fa-heart"></i> por YBucca</p>
+        </div>
+</footer>
 
 
 
