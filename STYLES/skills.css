@@ -30,12 +30,31 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: brown;
+    background-color: rgb(116, 151, 174);
 }
 .icon1{
     font-size: 4rem;
     padding: 30px;  
 }
+.Html{
+    color:#E54D26;
+}
+.Css{
+    color: #3D8FC6;
+}
+.Sass{
+    color: #CC6699;
+}
+.JS{
+    color:#F0DB4F;
+}
+.React{
+    color: #61DAFB;
+}
+.Git{
+    color: #F34F29;
+}
+
 .card:hover h4{
     color: crimson;
 }

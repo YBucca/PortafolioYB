@@ -57,7 +57,7 @@ p{
     background-color: whitesmoke;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    padding: 50px;
 }
 .container1{
     width: 50%;

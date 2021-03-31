@@ -33,7 +33,7 @@ main{
     align-items: center;
     flex-direction: column;
 }
-ul{
+.start{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
