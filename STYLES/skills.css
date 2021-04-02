@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Nunito";
 }
 
 .knowledge{
     width: 100%;
-    height: 600px;
+    height: 900px;
     background-color: gray;
     flex-direction: column;
     display: flex;
@@ -14,8 +15,8 @@
     align-items: center;
 }
 .card{
-    width: 250px;
-    height: 230px;
+    width: 260px;
+    height: 225px;
     border: 1px solid black;
     border-radius: 9px;
     background-color: azure;
@@ -23,8 +24,8 @@
     margin: 10px;
 }
 .flex-card{
-    width: 1000px;
-    height: 800px;
+    width: 900px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,7 @@
     background-color: rgb(116, 151, 174);
 }
 .icon1{
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 30px;  
 }
 .Html{

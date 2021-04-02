@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="./STYLES/skills.css">
 <link rel="stylesheet" href="./STYLES/form.css">
 <link rel="stylesheet" href="./STYLES/footer.css">
+<link rel="stylesheet" href="./STYLES/projects.css">
 <!--link iconos-->
 <script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
@@ -21,10 +22,10 @@
     <header>
         <nav>
             <ul class="start">
-                <li> <a href="#saludo">Hola</a></li>
-                <li><a href="#mis-conocimientos">Conocimientos</a></li>
-                <li><a href="#proyectos">Proyectos</a> </li>
-                <li> <a href="#contacto">Contacto</a></li>
+                <li class="button-ghost1"> <a href="#saludo">HOLA</a></li>
+                <li class="button-ghost2"><a href="#mis-conocimientos">CONOCIMIENTOS</a></li>
+                <li class="button-ghost3"><a href="#proyectos">PROYECTOS</a> </li>
+                <li class="button-1"> <a  class= "contact-button" href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -34,15 +35,17 @@
     <main>
         <a name="saludo"></a>
         <section class="presentation">
+            <div class="Iam">
+                <h2>¡Hola! Soy</h2>
+                <h1 class="name">Yanina Bucca</h1>
+                <p>Estudiante de RRII, personal trainer y futura desarroladora FRONTEND.</p>
+                <div class="button-2"><a href="#proyectos">LO QUE HAGO</div></a>
+
+            </div>
             <aside>
-                <h3>¡Hola! Soy</h3>
-                <h1>Yanina Bucca</h1>
-                <p>Estudiante de RRII, personal trainer y futura desarroladora frontend.</p>
-                <button>LO QUE HAGO</button>
+                <img src="./images/assets/book_love.svg" alt="Believe"
+                width="500px" height="500px">
             </aside>
-                <img src="./images/undraw_Imagination_re_i0xi.svg" alt="Believe"
-                width="450px" height="450px">
-            
         </section>
 
         <section class="knowledge">
@@ -78,54 +81,85 @@
         </section>
         <!--SOMEONE-->
 
-        <section>
-            <div class="someone">
+        <section class="someone">
+            <div class="phrase">
                 <i class="fas fa-quote-right icon3"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex aliquid, hic, sapiente pariatur sunt animi maiores cum nisi minus asperiores nobis odit harum laudantium soluta sequi perspiciatis eligendi cumque?</p>
-                <h2>Someone</h2>
+                <p class="date">No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente.</p>
+                <h1>- Virginia Woolf</h1>
             </div>
         </section>
         <!--MIS PROYECTOS-->
         <a name="proyectos"></a>
         <section class="projects">
+            <article class="my-projects">
                 <h1>Mis proyectos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, incidunt neque! Sint repudiandae qui assumenda consequuntur at impedit dignissimos, fugiat neque fugit iure error dolores voluptatum dolore consectetur veniam nulla.</p>
+            </article>
+            <div class="card-projects">
+                <figure class="card-tp">
+                    <div class="img-box1"></div>
+                    <figcaption>Portfolio</figcaption>
+                </figure>
+                <figure class="card-tp">
+                    <div class="img-box2"></div>
+                    <figcaption>Generador de memes</figcaption>
+                </figure>
+                <figure class="card-tp">
+                    <div class="img-box3"></div>
+                    <figcaption>Match 3</figcaption>
+                </figure>
+                <figure class="card-tp">
+                    <div class="img-box4"></div>
+                    <figcaption>Finanzas bajo control</figcaption>
+                </figure>
+                <figure class="card-tp">
+                    <div class="img-box5"></div>
+                    <figcaption>Administrador de reuniones</figcaption>
+                </figure>
+                <figure class="card-tp">
+                    <div class="img-box6"></div>
+                    <figcaption>Todo App</figcaption>
+                </figure>
+                <figure class="card-tp">
+                    <div class="img-box7"></div>
+                    <figcaption>Buscador de películas</figcaption>
+                </figure>
+            </div>
         </section>
 
-
         <!--CONTACTO-->
+        <a name="contacto"></a>
         <section class="contact">
-            <a name="contacto"></a>
             <div class="container-principal">
                 <div class="container1 m10">
-                    <h1 class="m10">Contactame</h1>
+                    <h1 class="title">Contactame</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quae nam dicta? Quisquam laudantium modi commodi quaerat ratione non voluptates doloremque. Placeat eos assumenda praesentium! Repellat veniam blanditiis et rem.</p>
-                    <div class="m10">
-                        <ul class="flex-column formUL">
-                            <li>
-                                <i class="fab fa-twitter icon"></i>
-                                <a href="https://twitter.com/YBucca" target="_blank"> 
-                                <span>@YBucca</span></a>
-                            </li>
-                            <li>
-                                <i class="fab fa-github-alt icon"></i>
-                                <a href="https://github.com/YBucca" target="_blank"> 
-                                <span>YBucca</span> </a>
-                            </li>
-                            <li>
-                                <i class="fab fa-linkedin-in icon" target="_blank"></i>
-                                <a href="https://www.linkedin.com/in/yanina-bucca-465127149/"> 
-                                <span>yaninabucca</span> </a>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope icon"></i>
-                                <a href=""><span>yani.bucca@gmail.com</span> </a>
-                            </li>
-                        </ul>
-                    </div>
+                    
+                    <ul class="flex-column">
+                        <li>
+                            <i class="fab fa-twitter icon"></i>
+                            <a href="https://twitter.com/YBucca" target="_blank"> 
+                            <span>@YBucca</span></a>
+                        </li>
+                        <li>
+                            <i class="fab fa-github-alt icon"></i>
+                            <a href="https://github.com/YBucca" target="_blank"> 
+                            <span>YBucca</span> </a>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin-in icon" target="_blank"></i>
+                            <a href="https://www.linkedin.com/in/yanina-bucca-465127149/"> 
+                            <span>yaninabucca</span> </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope icon"></i>
+                            <a href="mailto:"> <span>yani.bucca@gmail.com</span></a>
+                        </li>
+                    </ul>
                 </div>
             
                 <div class="container2 m10">
-                        <h1 class="m10">Escribime</h1>
+                        <h1 class="title">Escribime</h1>
                     <form action="">
                     <div class="subcontainer2">   
                         <div class="m10">
@@ -162,13 +196,13 @@
     <!--FOOTER-->
     <footer>
         <div class="end">
-        <ul>
+        <ul class="ulfooter">
             <li><a href="#saludo">HOLA</a></li>
             <li><a href="#mis-conocimientos">CONOCIMIENTOS</a></li>
             <li><a href="#proyectos">PROYECTOS</a></li>
             <li><a href="#contacto">CONTACTO</a></li>
         </ul>
-        <ul>
+        <ul class="ulfooter">
             <li>
                 <a href="https://twitter.com/YBucca" target="_blank">
                     <i class="fab fa-twitter icon2"></i></a> 
@@ -182,7 +216,7 @@
                     <i class="fab fa-linkedin-in icon2"></i></a>
             </li>
             <li>
-                <a href=""><i class="fas fa-envelope icon2"></i></a>
+                <a href="mailto:"><i class="fas fa-envelope icon2"></i></a>
             </li>
         </ul>
 
