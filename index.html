@@ -26,7 +26,7 @@
             <ul class="start">
                 <li class="button-ghost1"> <a class="font-white change" href="#saludo">HOLA</a></li>
                 <li class="button-ghost2"><a class="font-white change" href="#mis-conocimientos">CONOCIMIENTOS</a></li>
-                <li class="button-ghost3"><a class="font-white change" href="#proyectos">PROYECTOS</a> </li>
+                <li class="button-ghost3"><a class="font-white change m10" href="#proyectos">PROYECTOS</a> </li>
                 <li class="button-1"> <a  class= "font-white" href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
@@ -48,36 +48,39 @@
             </aside>
         </section>
 <!--SECTION knowledge-->
+    <a name="mis-conocimientos"></a>
         <section class="knowledge">
-            <a name="mis-conocimientos"></a>
+        <article>
             <h2 class="title-section">Mis Conocimientos </h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla?</p>
-        <div class="flex-card">
-            <div class="card">
-                <i class="fab fa-html5 icon1 Html"></i>
-                <h4>HTML 5</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit provident quod sit labore, quos iste architecto eveniet, alias dolores quibusdam quae. Vero.
+            </p>
+        </article>
+            <div class="flex-card">
+                <div class="card">
+                    <i class="fab fa-html5 icon1 Html"></i>
+                    <h4>HTML 5</h4>
+                </div>
+                <div class="card">
+                    <i class="fab fa-css3-alt icon1 Css"></i>
+                    <h4>CSS 3</h4>
+                </div>
+                <div class="card">
+                    <i class="fab fa-sass icon1 Sass"></i>
+                    <h4>Sass</h4>
+                </div>
+                <div class="card">
+                    <i class="fab fa-js-square icon1 JS"></i>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="card">
+                    <i class="fab fa-react icon1 React"></i>
+                    <h4>React</h4>
+                </div>
+                <div class="card">
+                    <i class="fas fa-code-branch icon1 Git"></i>
+                    <h4>GIT</h4>
+                </div>
             </div>
-            <div class="card">
-                <i class="fab fa-css3-alt icon1 Css"></i>
-                <h4>CSS 3</h4>
-            </div>
-            <div class="card">
-                <i class="fab fa-sass icon1 Sass"></i>
-                <h4>Sass</h4>
-            </div>
-            <div class="card">
-                <i class="fab fa-js-square icon1 JS"></i>
-                <h4>JavaScript</h4>
-            </div>
-            <div class="card">
-                <i class="fab fa-react icon1 React"></i>
-                <h4>React</h4>
-            </div>
-            <div class="card">
-                <i class="fas fa-code-branch icon1 Git"></i>
-                <h4>GIT</h4>
-            </div>
-        </div>
         </section>
 <!-- SECTION someone-->
         <section class="someone">
@@ -90,46 +93,46 @@
 <!--SECTION my projects-->
         <a name="proyectos"></a>
         <section class="projects">
-            <article class="my-projects">
+            <article>
                 <h1 class="title-section">Mis proyectos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, incidunt neque! Sint repudiandae qui assumenda consequuntur at impedit dignissimos, fugiat neque fugit iure error dolores voluptatum dolore consectetur veniam nulla.</p>
             </article>
             <div class="card-projects">
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                         <img class="img-box" src="./images/assets/workingfinance.svg" alt="WorkingIT">
                     <figcaption>Portfolio</figcaption>
                 </figure>
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                     <div>
                         <img class="img-box" src="./images/assets/undraw_hooked_c757.svg" alt="memes love">
                     </div>
                     <figcaption>Generador de memes</figcaption>
                 </figure>
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                     <div>
                         <img class="img-box" src="./images/assets/appfitness.svg" alt="Match 3">
                     </div>
                     <figcaption>Match 3</figcaption>
                 </figure>
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                     <div>
                         <img class="img-box" src="./images/assets/undraw_Savings_re_eq4w.svg" alt="control of finances">
                     </div>
                     <figcaption>Finanzas bajo control</figcaption>
                 </figure>
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                     <div>
                         <img class="img-box"src="./images/assets/book_love.svg" alt="diary">
                     </div>
                     <figcaption>Administrador de reuniones</figcaption>
                 </figure>
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                     <div>
                         <img class="img-box" src="./images/assets/undraw_creative_draft_vb5x.svg" alt="app">
                     </div>
                     <figcaption>Todo App</figcaption>
                 </figure>
-                <figure class="cards-tp">
+                <figure class="individual-cards">
                     <div>
                         <img class="img-box"src="./images/assets/undraw_movie_night_fldd.svg" alt="search movies">
                     </div>
@@ -172,22 +175,22 @@
                         <h1 class="title">Escribime</h1>
                     <form action="">
                         <div class="subcontainer2">   
-                            <div class="m10">
+                            <div class="m10 name2">
                                 <label for="idNombre">Nombre*</label>
-                                <input type="text" id="idNombre" maxlength="10" size="10" placeholder="p. ej: Ada">
+                                <input class="input-name" type="text" id="idNombre" placeholder="p. ej: Yanina">
                             </div>
-                            <div class="m10">
+                            <div class="m10 lastname2">
                                 <label for="idApellido">Apellido*</label>
-                                <input type="text" id="idApellido"  placeholder="p. ej: Lovelace">
+                                <input class="input-name" type="text" id="idApellido"  placeholder="p. ej: Bucca">
                             </div>
                         </div>    
-                            <div class="m10">
+                            <div class="m10 email2">
                                 <label for="idEmail">Email*</label>
-                                <input class="linea" type="email" maxlength="50" size="30" placeholder="p.ej.: ada.lovelace@gmail.com">
+                                <input class="line" type="email" maxlength="50" size="30" placeholder="p.ej.: yani.bucca@gmail.com">
                             </div>
                             <div class="flex-column m10">
                                 <label for="idMensaje">Mensaje*</label>
-                                <textarea name="Mensaje" id="idMensaje" cols="25" rows="7" placeholder=" Escriba un mensaje aqui"></textarea>
+                                <textarea name="Mensaje" id="idMensaje" cols="20" rows="7" placeholder=" Escriba un mensaje aqui"></textarea>
                             </div>
                     </form>
                         <button class="m10">Enviar</button>

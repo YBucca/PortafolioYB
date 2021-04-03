@@ -8,7 +8,6 @@
 }
 body{
     width:100vw;
-    /*height: 100vh;*/
     background-color: #ECE6E0;
 }
 header{
@@ -29,11 +28,14 @@ nav{
     display: flex;
     justify-content:center;
     align-items: center;
-    
 }
 a{
     text-decoration: none;
     padding: 15px;
+}
+.padding{
+    padding-right: 5px;
+
 }
 .start{
     display: flex;
@@ -48,6 +50,7 @@ a{
     height: 40px;
     background-color:rgb(153, 217, 140);
     border-radius: 20px;
+    padding-right: 5px;
     display: flex;
     justify-content:center;
     align-items: center;

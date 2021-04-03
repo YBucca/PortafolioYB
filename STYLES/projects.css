@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: "Nunito";
 }
+article{
+    width: 60%;
+    height: 30%;
+    background-color:rgb(193,218,208);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
 .projects{
     width: 100%;
     height: 100%;
@@ -12,24 +22,10 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding: 60px;
-}
-
-.my-projects{
-    width: 70%;
-    height: 30%;
-    background-color:rgb(193,218,208);
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-}
-.title-section{
-    font-size:3em;
-    font-weight: 800;
+    padding: 10%;
 }
 .card-projects{
-    width: 95%;
+    width: 90%;
     height:100%;
     background-color:rgb(193,218,208);
     display: flex;
@@ -37,30 +33,30 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.cards-tp{
-    width: 342px;
-    height: 348px;
+.individual-cards{
+    width: 30%;
+    height: 15%;
     border: 1px solid gray;
     border-radius: 9px;
     background-color:white;
     text-align: center; 
-    margin: 10px;
-    padding: 20px;
+    margin: 1%;
+    padding: 2%;
 }
 .img-box{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 figcaption{
-    font-size:1.5em;
+    font-size:1.2em;
     font-weight: 600;
 }
-.cards-tp:hover figcaption{
+.individual-cards:hover figcaption{
     color:rgb(153, 217, 140);
 }
-.cards-tp:hover {
+.individual-cards:hover {
     border: 2px solid rgb(153, 217, 140);
 }
-.cards-tp:active {
+.individual-cards:active {
     box-shadow: -1px 0px 7px 0px rgb(153, 217, 140);
 }

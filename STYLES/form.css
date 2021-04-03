@@ -6,37 +6,18 @@
     box-sizing: border-box;
     font-family: "Nunito";
 }
-section > .contact {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-input{
-    border-radius: 20px;
-    width: 230px;
-    height: 40px;
-    padding: 15px;
-    margin-top: 10px;
-    outline: none;
-}
+
 textarea{
+    width: 100%;
     border-radius: 20px;
-    padding: 5px;
+    padding: 2%;
     font-family: "inconsolata";
-    margin-top: 10px;
+    margin-top: 2%;
     outline: none;
     display: flex;
     flex-grow: 1;
+    border: transparent;
 }
-.ul-contact{
-    list-style: none;
-    margin: 20px;
-    font-size: 20px;
-    padding: 10px;
-}/* los padding los puedo poner en una misma clase*/
-
 a{
     text-decoration: none;
     color: black;
@@ -56,10 +37,11 @@ button{
     background-color:rgb(153, 217, 140);
     color: white;
     border-radius: 30px;
-    
+    border: transparent;
 }
 .contact{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +63,12 @@ button{
     height: 100%;
     margin-left: 20px;
 }
+.ul-contact{
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+}/* los padding los puedo poner en una misma clase*/
 .container2{
     width: 50%;
     height: 100%;
@@ -89,10 +77,44 @@ button{
     justify-content: flex-start;
 }
 .subcontainer2{
-    width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.name2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.lastname2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.email2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.line{
+    width: 100%;
+    border-radius: 30px;
+    padding: 2%;
+    outline: none;
+    border: transparent;
+    margin-top: 2%;
+}
+.input-name{
+    border-radius: 30px;
+    width: 100%;
+    padding: 4%;
+    margin-top: 2%;
+    outline: none;
+    border: transparent;
 }
 .title{
     font-weight: 600;
@@ -104,9 +126,7 @@ button{
 .m10{
     margin: 10px;
 }
-.linea{
-    width: 100%;
-}
+
 .flex-column{
     width: 100%;
     display: flex;
