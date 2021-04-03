@@ -7,36 +7,42 @@
 footer{
     width: 100%;
     height: 300px;
-    background-color: palevioletred; 
+    background-color:#3F3D56; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .end{
-    width: 500px;
+    width: 600px;
     height: 250px;
-    background-color:palevioletred;
-    padding: 10px;
+    background-color:#3F3D56;
 }
-.ulfooter{
+.ul-footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.icon2{
-    font-size: 1.5em;
-    border-radius: 50%;
-    background-color: white;
-    color: palevioletred;
+    list-style: none;
+    margin: 20px;
+    font-size: 1.2em;
     padding: 10px;
 }
-p{
+.icon2{
+    font-size: 1em;
+    border-radius: 50%;
+    background-color: white;
+    color:#3F3D56;
+    padding: 10px;
+}
+.p-footer{
     text-align: center;
+    color:#6c757d;
+    font-size: 1.2em;
+
 }
 
 .icon2:hover {
-    background-color: palevioletred;
+    background-color:#3F3D56;
     border: 1px solid white;
     color: white;
 }

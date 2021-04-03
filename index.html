@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="./STYLES/form.css">
 <link rel="stylesheet" href="./STYLES/footer.css">
 <link rel="stylesheet" href="./STYLES/projects.css">
+<link rel="stylesheet" href="./STYLES/someone.css">
+<link rel="stylesheet" href="./STYLES/responsive.css">
 <!--link iconos-->
 <script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2b0ee45a2e.js" crossorigin="anonymous"></script>
@@ -22,10 +24,10 @@
     <header>
         <nav>
             <ul class="start">
-                <li class="button-ghost1"> <a href="#saludo">HOLA</a></li>
-                <li class="button-ghost2"><a href="#mis-conocimientos">CONOCIMIENTOS</a></li>
-                <li class="button-ghost3"><a href="#proyectos">PROYECTOS</a> </li>
-                <li class="button-1"> <a  class= "contact-button" href="#contacto">CONTACTO</a></li>
+                <li class="button-ghost1"> <a class="font-white change" href="#saludo">HOLA</a></li>
+                <li class="button-ghost2"><a class="font-white change" href="#mis-conocimientos">CONOCIMIENTOS</a></li>
+                <li class="button-ghost3"><a class="font-white change" href="#proyectos">PROYECTOS</a> </li>
+                <li class="button-1"> <a  class= "font-white" href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -35,22 +37,22 @@
     <main>
         <a name="saludo"></a>
         <section class="presentation">
-            <div class="Iam">
-                <h2>¡Hola! Soy</h2>
+            <div class="about-me">
+                <h2 class="hello" >¡Hola! Soy</h2>
                 <h1 class="name">Yanina Bucca</h1>
                 <p>Estudiante de RRII, personal trainer y futura desarroladora FRONTEND.</p>
-                <div class="button-2"><a href="#proyectos">LO QUE HAGO</div></a>
+                <div class="button-2"><a class="font-white" href="#proyectos">LO QUE HAGO</div></a>
 
             </div>
             <aside>
-                <img src="./images/assets/book_love.svg" alt="Believe"
-                width="500px" height="500px">
+                <img src="./images/assets/workingfinance.svg" alt="Working in my code"
+                width="600px" height="600px">
             </aside>
         </section>
 
         <section class="knowledge">
             <a name="mis-conocimientos"></a>
-            <h2>Mis Conocimientos </h2>
+            <h2 class="title-section">Mis Conocimientos </h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla?</p>
         <div class="flex-card">
             <div class="card">
@@ -85,43 +87,55 @@
             <div class="phrase">
                 <i class="fas fa-quote-right icon3"></i>
                 <p class="date">No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente.</p>
-                <h1>- Virginia Woolf</h1>
+                <h1 class="title-author">- Virginia Woolf</h1>
             </div>
         </section>
         <!--MIS PROYECTOS-->
         <a name="proyectos"></a>
         <section class="projects">
             <article class="my-projects">
-                <h1>Mis proyectos</h1>
+                <h1 class="title-section">Mis proyectos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, incidunt neque! Sint repudiandae qui assumenda consequuntur at impedit dignissimos, fugiat neque fugit iure error dolores voluptatum dolore consectetur veniam nulla.</p>
             </article>
             <div class="card-projects">
-                <figure class="card-tp">
-                    <div class="img-box1"></div>
+                <figure class="cards-tp">
+                        <img class="img-box" src="./images/assets/workingfinance.svg" alt="WorkingIT">
                     <figcaption>Portfolio</figcaption>
                 </figure>
-                <figure class="card-tp">
-                    <div class="img-box2"></div>
+                <figure class="cards-tp">
+                    <div>
+                        <img class="img-box" src="./images/assets/undraw_hooked_c757.svg" alt="memes love">
+                    </div>
                     <figcaption>Generador de memes</figcaption>
                 </figure>
-                <figure class="card-tp">
-                    <div class="img-box3"></div>
+                <figure class="cards-tp">
+                    <div>
+                        <img class="img-box" src="./images/assets/appfitness.svg" alt="Match 3">
+                    </div>
                     <figcaption>Match 3</figcaption>
                 </figure>
-                <figure class="card-tp">
-                    <div class="img-box4"></div>
+                <figure class="cards-tp">
+                    <div>
+                        <img class="img-box" src="./images/assets/undraw_Savings_re_eq4w.svg" alt="control of finances">
+                    </div>
                     <figcaption>Finanzas bajo control</figcaption>
                 </figure>
-                <figure class="card-tp">
-                    <div class="img-box5"></div>
+                <figure class="cards-tp">
+                    <div>
+                        <img class="img-box"src="./images/assets/book_love.svg" alt="diary">
+                    </div>
                     <figcaption>Administrador de reuniones</figcaption>
                 </figure>
-                <figure class="card-tp">
-                    <div class="img-box6"></div>
+                <figure class="cards-tp">
+                    <div>
+                        <img class="img-box" src="./images/assets/undraw_creative_draft_vb5x.svg" alt="app">
+                    </div>
                     <figcaption>Todo App</figcaption>
                 </figure>
-                <figure class="card-tp">
-                    <div class="img-box7"></div>
+                <figure class="cards-tp">
+                    <div>
+                        <img class="img-box"src="./images/assets/undraw_movie_night_fldd.svg" alt="search movies">
+                    </div>
                     <figcaption>Buscador de películas</figcaption>
                 </figure>
             </div>
@@ -135,7 +149,7 @@
                     <h1 class="title">Contactame</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus quae nam dicta? Quisquam laudantium modi commodi quaerat ratione non voluptates doloremque. Placeat eos assumenda praesentium! Repellat veniam blanditiis et rem.</p>
                     
-                    <ul class="flex-column">
+                    <ul class="flex-column ul-contact">
                         <li>
                             <i class="fab fa-twitter icon"></i>
                             <a href="https://twitter.com/YBucca" target="_blank"> 
@@ -196,13 +210,13 @@
     <!--FOOTER-->
     <footer>
         <div class="end">
-        <ul class="ulfooter">
-            <li><a href="#saludo">HOLA</a></li>
-            <li><a href="#mis-conocimientos">CONOCIMIENTOS</a></li>
-            <li><a href="#proyectos">PROYECTOS</a></li>
-            <li><a href="#contacto">CONTACTO</a></li>
+        <ul class="ul-footer">
+            <li><a class="font-white" href="#saludo">HOLA</a></li>
+            <li><a class="font-white" href="#mis-conocimientos">CONOCIMIENTOS</a></li>
+            <li><a class="font-white" href="#proyectos">PROYECTOS</a></li>
+            <li><a class="font-white" href="#contacto">CONTACTO</a></li>
         </ul>
-        <ul class="ulfooter">
+        <ul class="ul-footer">
             <li>
                 <a href="https://twitter.com/YBucca" target="_blank">
                     <i class="fab fa-twitter icon2"></i></a> 
@@ -220,7 +234,7 @@
             </li>
         </ul>
 
-            <p>Hecho con <i class="far fa-heart"></i> por YBucca</p>
+            <p class="p-footer">Hecho con <i class="far fa-heart"></i> por YBucca</p>
         </div>
 </footer>
 

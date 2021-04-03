@@ -27,16 +27,16 @@ textarea{
     font-family: "inconsolata";
     margin-top: 10px;
     outline: none;
+    display: flex;
+    flex-grow: 1;
 }
-ul{
+.ul-contact{
     list-style: none;
     margin: 20px;
     font-size: 20px;
     padding: 10px;
 }/* los padding los puedo poner en una misma clase*/
-li{
-    padding-top: 10px;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -48,6 +48,15 @@ p{
     margin-left: 10px;
     margin-top: 20px;
     color: rgb(46, 45, 45);
+}
+button{
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    background-color:rgb(153, 217, 140);
+    color: white;
+    border-radius: 30px;
+    
 }
 .contact{
     width: 100%;
@@ -89,6 +98,7 @@ p{
     font-weight: 600;
     font-size: 3em;
     font-family: "Nunito";
+    font-weight: 800;
     padding-bottom: 10px;
 }
 .m10{
@@ -101,29 +111,29 @@ p{
     width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
 .icon{
-    color: rgb(247, 130, 247);
+    color: rgb(153, 217, 140);
     background-color: transparent;
+    font-size: 1em;
     padding: 10px;
     border-radius: 50%;
 }
 li:hover .icon{
-    background-color:rgb(247, 130, 247) ;
+    background-color:rgb(153, 217, 140) ;
     color: white;
 }
 li:hover span{
-    color: rgb(247, 130, 247);
+    color: rgb(153, 217, 140);
 }
-button{
-    font-size: 18px;
-    width: 100px;
-    height: 50px;
-    background-color: rgb(247, 130, 247);
-    color: white;
-    border-radius: 20px;
-    
+button:hover {
+    background-color:rgb(181, 228, 140);
+}
+input:focus {
+    box-shadow: -2px -1px 15px 0px rgb(153, 217, 140)
+}
+textarea:focus {
+    box-shadow: -2px -1px 15px 0px rgb(153, 217, 140)
 }
 /*
 @media screen and (max-width:600px){
