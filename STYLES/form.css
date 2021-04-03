@@ -119,6 +119,49 @@ button{
     padding: 10px;
     border-radius: 50%;
 }
+.box-1:focus{
+    width: 170px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-2:focus {
+    width: 190px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-3:focus { /*no funciona*/
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(153, 217, 140);
+    box-shadow: -1px 0px 7px 0px rgb(153, 217, 140);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-4:focus {
+    width: 290px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 li:hover .icon{
     background-color:rgb(153, 217, 140) ;
     color: white;
