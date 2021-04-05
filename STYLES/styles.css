@@ -143,4 +143,10 @@ a{
 .cover-page{
     width:600px;
     height:600px;
+    filter: drop-shadow(2px 5px 20px #4c456d);
+    transition-duration: 0.6s;
+}
+.cover-page:hover{
+    transform: scale(1.2);
+    transition-duration: 0.6s;
 }
