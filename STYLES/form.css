@@ -8,15 +8,14 @@
 }
 
 textarea{
-    width: 100%;
+    width: 96%;
     border-radius: 20px;
     padding: 2%;
     font-family: "inconsolata";
     margin-top: 2%;
     outline: none;
-    display: flex;
-    flex-grow: 1;
     border: transparent;
+    background-color: #ECE6E0;
 }
 a{
     text-decoration: none;
@@ -84,18 +83,20 @@ button{
 }
 .name2{
     width: 50%;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 .lastname2{
     width: 50%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
 }
 .email2{
-    width: 100%;
+    width: 96%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -103,10 +104,11 @@ button{
 .line{
     width: 100%;
     border-radius: 30px;
-    padding: 2%;
+    padding: 3%;
     outline: none;
     border: transparent;
     margin-top: 2%;
+    background-color: #ECE6E0;
 }
 .input-name{
     border-radius: 30px;
@@ -115,6 +117,7 @@ button{
     margin-top: 2%;
     outline: none;
     border: transparent;
+    background-color: #ECE6E0;
 }
 .title{
     font-weight: 600;
@@ -139,41 +142,41 @@ button{
     padding: 10px;
     border-radius: 50%;
 }
-.box-1:focus{
+.box-1{
     width: 170px;
     height: 50px;
-    border: 1px solid gray;
+    border: 1px solid transparent;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.box-2:focus {
-    width: 190px;
+.box-2 {
+    width: 155px;
     height: 50px;
-    border: 1px solid gray;
+    border: 1px solid transparent;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-.box-3:focus { /*no funciona*/
+.box-3 {
     width: 200px;
     height: 50px;
-    border: 2px solid rgb(153, 217, 140);
-    box-shadow: -1px 0px 7px 0px rgb(153, 217, 140);
+    border: 2px solid transparent;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.box-4:focus {
+.box-4 {
     width: 290px;
     height: 50px;
-    border: 1px solid gray;
+    border: 1px solid transparent;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -189,6 +192,22 @@ li:hover .icon{
 li:hover span{
     color: rgb(153, 217, 140);
 }
+.box-1:active {
+    box-shadow: -2px -1px 15px 0px rgb(153, 217, 140);
+    border-color: 1px solid rgb(153, 217, 140)
+}
+.box-2:active {
+    box-shadow: -2px -1px 15px 0px rgb(153, 217, 140);
+    border-color: 1px solid rgb(153, 217, 140)
+}
+.box-3:active {
+    box-shadow: -2px -1px 15px 0px rgb(153, 217, 140);
+    border-color: 1px solid rgb(153, 217, 140)
+}
+.box-4:active {
+    box-shadow: -2px -1px 15px 0px rgb(153, 217, 140);
+    border-color: 1px solid rgb(153, 217, 140)
+}
 button:hover {
     background-color:rgb(181, 228, 140);
 }
@@ -198,6 +217,7 @@ input:focus {
 textarea:focus {
     box-shadow: -2px -1px 15px 0px rgb(153, 217, 140)
 }
+
 /*
 @media screen and (max-width:600px){
     .container-principal{

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YANINA_BUCCA</title>
     
-    <!-- Styles -->
+<!-- Styles -->
 <link rel="stylesheet" href="./STYLES/styles.css">
 <link rel="stylesheet" href="./STYLES/skills.css">
 <link rel="stylesheet" href="./STYLES/form.css">
@@ -24,9 +24,9 @@
     <header>
         <nav>
             <ul class="start">
-                <li class="button-ghost1"> <a class="font-white change" href="#saludo">HOLA</a></li>
-                <li class="button-ghost2"><a class="font-white change" href="#mis-conocimientos">CONOCIMIENTOS</a></li>
-                <li class="button-ghost3"><a class="font-white change m10" href="#proyectos">PROYECTOS</a> </li>
+                <li class="button-ghost1"> <a class="font-color change" href="#saludo">HOLA</a></li>
+                <li class="button-ghost2"><a class="font-color change" href="#mis-conocimientos">CONOCIMIENTOS</a></li>
+                <li class="button-ghost3"><a class="font-color change m10" href="#proyectos">PROYECTOS</a> </li>
                 <li class="button-1"> <a  class= "font-white" href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
@@ -39,12 +39,11 @@
             <div class="about-me">
                 <h2 class="hello" >¡Hola! Soy</h2>
                 <h1 class="name">Yanina Bucca</h1>
-                <p>Estudiante de RRII, personal trainer y futura desarroladora FRONTEND.</p>
+                <p>Estudiante de RRII, personal trainer y futura desarroladora Frontend.</p>
                 <div class="button-2"><a class="font-white" href="#proyectos">LO QUE HAGO</div></a>
             </div>
             <aside>
-                <img src="./images/assets/workingfinance.svg" alt="Working in my code"
-                width="600px" height="600px">
+                <img class="cover-page" src="./images/assets/workingfinance.svg" alt="Working in my code">
             </aside>
         </section>
 <!--SECTION knowledge-->
@@ -98,45 +97,49 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, incidunt neque! Sint repudiandae qui assumenda consequuntur at impedit dignissimos, fugiat neque fugit iure error dolores voluptatum dolore consectetur veniam nulla.</p>
             </article>
             <div class="card-projects">
+
                 <figure class="individual-cards">
+                    <a href="./index.html" target="_blank">
                         <img class="img-box" src="./images/assets/workingfinance.svg" alt="WorkingIT">
-                    <figcaption>Portfolio</figcaption>
+                        <figcaption>Portfolio</figcaption>
+                        </a>
                 </figure>
+            
                 <figure class="individual-cards">
-                    <div>
+                    <a href="./index.html" target="_blank">
                         <img class="img-box" src="./images/assets/undraw_hooked_c757.svg" alt="memes love">
-                    </div>
                     <figcaption>Generador de memes</figcaption>
+                    </a>
                 </figure>
                 <figure class="individual-cards">
-                    <div>
+                    <a href="./index.html" target="_blank">
                         <img class="img-box" src="./images/assets/appfitness.svg" alt="Match 3">
-                    </div>
-                    <figcaption>Match 3</figcaption>
+                        <figcaption>Match 3</figcaption>
+                    </a>
                 </figure>
                 <figure class="individual-cards">
-                    <div>
+                    <a href="./index.html" target="_blank">
                         <img class="img-box" src="./images/assets/undraw_Savings_re_eq4w.svg" alt="control of finances">
-                    </div>
-                    <figcaption>Finanzas bajo control</figcaption>
+                        <figcaption>Finanzas bajo control</figcaption>
+                    </a>
                 </figure>
                 <figure class="individual-cards">
-                    <div>
+                    <a href="./index.html" target="_blank">
                         <img class="img-box"src="./images/assets/book_love.svg" alt="diary">
-                    </div>
-                    <figcaption>Administrador de reuniones</figcaption>
+                        <figcaption>Administrador</figcaption>
+                    </a>
                 </figure>
                 <figure class="individual-cards">
-                    <div>
+                    <a href="./index.html" target="_blank">
                         <img class="img-box" src="./images/assets/undraw_creative_draft_vb5x.svg" alt="app">
-                    </div>
-                    <figcaption>Todo App</figcaption>
+                        <figcaption>Todo App</figcaption>
+                    </a>
                 </figure>
                 <figure class="individual-cards">
-                    <div>
+                    <a href="./index.html" target="_blank">
                         <img class="img-box"src="./images/assets/undraw_movie_night_fldd.svg" alt="search movies">
-                    </div>
-                    <figcaption>Buscador de películas</figcaption>
+                        <figcaption>Buscador de películas</figcaption>
+                    </a>
                 </figure>
             </div>
         </section>
@@ -160,8 +163,8 @@
                             <span>YBucca</span> </a>
                         </li>
                         <li class="box-3">
-                            <i class="fab fa-linkedin-in icon" target="_blank"></i>
-                            <a href="https://www.linkedin.com/in/yanina-bucca-465127149/"> 
+                            <i class="fab fa-linkedin-in icon"></i>
+                            <a href="https://www.linkedin.com/in/yanina-bucca-465127149/" target="_blank"> 
                             <span>yaninabucca</span> </a>
                         </li>
                         <li class="box-4">
@@ -177,23 +180,29 @@
                         <div class="subcontainer2">   
                             <div class="m10 name2">
                                 <label for="idNombre">Nombre*</label>
-                                <input class="input-name" type="text" id="idNombre" placeholder="p. ej: Yanina">
+                                <input class="input-name" type="text" id="idNombre"
+                                maxlength="10"  
+                                size="10"
+                            placeholder="p. ej: Yanina">
                             </div>
                             <div class="m10 lastname2">
                                 <label for="idApellido">Apellido*</label>
-                                <input class="input-name" type="text" id="idApellido"  placeholder="p. ej: Bucca">
+                                <input class="input-name" type="text" id="idApellido" maxlength="10"  
+                                size="10"
+                                placeholder="p. ej: Bucca">
                             </div>
-                        </div>    
+                        </div>   
                             <div class="m10 email2">
                                 <label for="idEmail">Email*</label>
-                                <input class="line" type="email" maxlength="50" size="30" placeholder="p.ej.: yani.bucca@gmail.com">
+                                <input class="line" type="email" maxlength="30" size="50" placeholder="p.ej.: yani.bucca@gmail.com">
                             </div>
                             <div class="flex-column m10">
                                 <label for="idMensaje">Mensaje*</label>
                                 <textarea name="Mensaje" id="idMensaje" cols="20" rows="7" placeholder=" Escriba un mensaje aqui"></textarea>
                             </div>
+                            
                     </form>
-                        <button class="m10">Enviar</button>
+                            <button class="m10">Enviar</button>
                 </div>
             </div>
         </section>
@@ -201,13 +210,13 @@
     <!--FOOTER-->
     <footer>
         <div class="end">
-            <ul class="ul-footer">
+            <ul class="ul-footer1">
                 <li><a class="font-white" href="#saludo">HOLA</a></li>
                 <li><a class="font-white" href="#mis-conocimientos">CONOCIMIENTOS</a></li>
                 <li><a class="font-white" href="#proyectos">PROYECTOS</a></li>
                 <li><a class="font-white" href="#contacto">CONTACTO</a></li>
             </ul>
-            <ul class="ul-footer">
+            <ul class="ul-footer2">
                 <li>
                     <a href="https://twitter.com/YBucca" target="_blank">
                     <i class="fab fa-twitter icon2"></i></a> 

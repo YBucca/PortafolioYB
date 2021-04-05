@@ -1,0 +1,133 @@
+@media screen and (max-width:414px){
+    body {width: 100vw;}
+
+    header{
+        display:none;
+    }
+
+    .presentation{
+        width: 100%;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10%;
+    }
+    .cover-page{
+        width: 90%;
+        height:90%;
+    }
+    .about-me{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 25%;
+    }
+    /*knowledge*/
+    .knowledge{
+        width: 100%;
+        height:100%;
+    }
+    article{
+        width: 100%;
+    }
+    .title-section{
+        text-align: center;
+    }
+    .flex-card{
+        width: 100%;
+        height:100%;
+        display:flex;
+        flex-wrap: wrap;
+        padding: 5%;
+    }
+    .card{
+        width: 45%;
+        height: 50%;;
+        margin: 2%;
+    }
+    .icon1{
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 1.2em;
+    }
+    /*Someone*/
+    .date{
+        text-align: center;
+        font-size: 1.3em;
+    }
+    /*Projects*/
+    .projects{
+        width: 100%;
+    }
+    .card-projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .individual-cards{
+        width: 95%;
+        height: 10%;
+        margin: 2%;
+    }
+    /*contact*/
+    .contact{
+        width: 100%;
+        height:100%;
+    }
+    .container-principal{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .container1{
+        width: 100%;
+        height:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .container2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; 
+    }
+    .subcontainer2{
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .name2{
+        width: 96%; 
+    }
+    .lastname2{
+        width: 96%;
+    }
+    
+    
+    /*Footer*/
+    .end{
+        width: 100%;
+        height: 60%;
+        padding-top: 5%;
+    }
+    .ul-footer1{
+        display:none;
+    }
+
+}

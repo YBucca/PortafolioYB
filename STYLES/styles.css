@@ -19,12 +19,12 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color:#3F3D56;
+    background-color:#ECE6E0;
 }
 nav{
     width: 70%;
     height: 100%;
-    background-color:#3F3D56;
+    background-color:#ECE6E0;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -35,7 +35,6 @@ a{
 }
 .padding{
     padding-right: 5px;
-
 }
 .start{
     display: flex;
@@ -54,10 +53,12 @@ a{
     display: flex;
     justify-content:center;
     align-items: center;
-
 }
 .font-white{
-    color: white;
+    color:white;
+}
+.font-color{
+    color: #3F3D56;
 }
 .button-1:hover{
     background-color:rgb(181, 228, 140);
@@ -77,7 +78,7 @@ a{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding:10px;
+    padding-right: 1%;
 }
 .button-ghost2:active{
     width: 200px;
@@ -116,6 +117,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 5%;
 }
 .hello{
     color: #3F3D56;
@@ -133,6 +135,11 @@ a{
     background-color: rgb(153, 217, 140);
     border-radius: 30px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    margin-top: 10%;
+}
+.cover-page{
+    width:600px;
+    height:600px;
 }

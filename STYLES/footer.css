@@ -17,7 +17,17 @@ footer{
     height: 250px;
     background-color:#3F3D56;
 }
-.ul-footer{
+.ul-footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.ul-footer2{
     display: flex;
     flex-direction: row;
     justify-content: center;
