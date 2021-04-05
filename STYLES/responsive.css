@@ -20,6 +20,9 @@
         align-items: center;
         margin: 10%;
     }
+    .imake{
+        text-align: center;
+    }
     .cover-page{
         width: 90%;
         height:90%;
@@ -118,8 +121,9 @@
     .lastname2{
         width: 96%;
     }
-    
-    
+    .line{
+        padding: 4%;
+    }
     /*Footer*/
     .end{
         width: 100%;
