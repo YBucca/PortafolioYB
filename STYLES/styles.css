@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family:"Nunito";
 }
+:root{
+    scroll-behavior: smooth;
+}
 body{
     width:100vw;
     background-color: #ECE6E0;
@@ -19,7 +22,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color:#ECE6E0;
+    background-color:#ECE6e0;
 }
 nav{
     width: 70%;
