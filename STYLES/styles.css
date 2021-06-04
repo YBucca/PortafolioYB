@@ -122,18 +122,20 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 5%;
+    padding: 2%;
 }
 .hello{
     color: #3F3D56;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .name{
     font-family: "Anton";
-    font-size: 3.5em;
+    font-size: 4em;
     color:#3F3D56;
 }
-
+.iMake{
+    font-size: 1.5em;
+}
 .button-2{
     width: 200px;
     height: 50px;
@@ -143,6 +145,7 @@ a{
     justify-content: center;
     align-items: center;
     margin-top: 10%;
+
 }
 .cover-page{
     width:600px;
